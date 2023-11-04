@@ -7,8 +7,12 @@ Your machine need to set up:
 + `mvn` maven to package program to `JAR`
 
 ### 2. Run to capture frame on webcam
-Run code by Intellij JDK.
+You can run this program by:
 
+#### 2.1 Run code by Intellij JDK.
+Open project by Intellij and hit `Run 'main'`.
+
+#### 2.2 Run code by command.
 Or package code to `JAR` by command:
 ```
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies
